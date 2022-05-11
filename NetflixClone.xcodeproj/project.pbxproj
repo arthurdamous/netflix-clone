@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA742365282B54E30061A104 /* ApiCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA742364282B54E30061A104 /* ApiCaller.swift */; };
+		DA742367282B580D0061A104 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA742366282B580D0061A104 /* Movie.swift */; };
 		DA8782222824B20500E5002B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8782212824B20500E5002B /* AppDelegate.swift */; };
 		DA8782242824B20500E5002B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8782232824B20500E5002B /* SceneDelegate.swift */; };
 		DA8782262824B20500E5002B /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8782252824B20500E5002B /* MainTabBarViewController.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA742364282B54E30061A104 /* ApiCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCaller.swift; sourceTree = "<group>"; };
+		DA742366282B580D0061A104 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		DA87821E2824B20500E5002B /* NetflixClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8782212824B20500E5002B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA8782232824B20500E5002B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +100,7 @@
 		DA87823E2824BDAA00E5002B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				DA742366282B580D0061A104 /* Movie.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 		DA8782422824BDF900E5002B /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				DA742364282B54E30061A104 /* ApiCaller.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -209,6 +215,8 @@
 				DA8782242824B20500E5002B /* SceneDelegate.swift in Sources */,
 				DA8782392824B4CD00E5002B /* UpcomingViewController.swift in Sources */,
 				DA8782372824B4A100E5002B /* HomeViewController.swift in Sources */,
+				DA742367282B580D0061A104 /* Movie.swift in Sources */,
+				DA742365282B54E30061A104 /* ApiCaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
