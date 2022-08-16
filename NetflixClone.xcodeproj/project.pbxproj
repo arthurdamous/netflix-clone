@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E0EEFAC28AB3205001887BC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0EEFAB28AB3205001887BC /* Extensions.swift */; };
 		DA742365282B54E30061A104 /* ApiCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA742364282B54E30061A104 /* ApiCaller.swift */; };
 		DA742367282B580D0061A104 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA742366282B580D0061A104 /* Movie.swift */; };
 		DA8782222824B20500E5002B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8782212824B20500E5002B /* AppDelegate.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E0EEFAB28AB3205001887BC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		DA742364282B54E30061A104 /* ApiCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCaller.swift; sourceTree = "<group>"; };
 		DA742366282B580D0061A104 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		DA87821E2824B20500E5002B /* NetflixClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +126,7 @@
 		DA8782412824BDF400E5002B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8E0EEFAB28AB3205001887BC /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				DA87823D2824B56800E5002B /* DownloadsViewController.swift in Sources */,
 				DA8782222824B20500E5002B /* AppDelegate.swift in Sources */,
 				DA8782242824B20500E5002B /* SceneDelegate.swift in Sources */,
+				8E0EEFAC28AB3205001887BC /* Extensions.swift in Sources */,
 				DA8782392824B4CD00E5002B /* UpcomingViewController.swift in Sources */,
 				DA8782372824B4A100E5002B /* HomeViewController.swift in Sources */,
 				DA742367282B580D0061A104 /* Movie.swift in Sources */,

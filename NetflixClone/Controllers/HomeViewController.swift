@@ -104,7 +104,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource{
             width: 100,
             height: header.bounds.height)
         header.textLabel?.textColor = .white
-        header.textLabel?.text = header.textLabel?.text?.lowercased()
+        header.textLabel?.text = header.textLabel?.text?.capitalizeFirstLetter()
     }
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
